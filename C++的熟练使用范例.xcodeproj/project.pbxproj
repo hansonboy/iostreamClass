@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CBF765BA1CB620BE00DD660C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF765B91CB620BE00DD660C /* main.cpp */; };
+		CBF765C21CB6272900DD660C /* IOClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF765C01CB6272900DD660C /* IOClass.cpp */; };
+		CBF765C41CB6348900DD660C /* StrStreamClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF765C31CB6348900DD660C /* StrStreamClass.cpp */; };
+		CBF765C61CB63B1200DD660C /* FstreamClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF765C51CB63B1200DD660C /* FstreamClass.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		CBF765B61CB620BE00DD660C /* C++的熟练使用范例 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++的熟练使用范例"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF765B91CB620BE00DD660C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CBF765C01CB6272900DD660C /* IOClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IOClass.cpp; sourceTree = "<group>"; };
+		CBF765C31CB6348900DD660C /* StrStreamClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrStreamClass.cpp; sourceTree = "<group>"; };
+		CBF765C51CB63B1200DD660C /* FstreamClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FstreamClass.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				CBF765B91CB620BE00DD660C /* main.cpp */,
+				CBF765C51CB63B1200DD660C /* FstreamClass.cpp */,
+				CBF765C01CB6272900DD660C /* IOClass.cpp */,
+				CBF765C31CB6348900DD660C /* StrStreamClass.cpp */,
 			);
 			path = "C++的熟练使用范例";
 			sourceTree = "<group>";
@@ -118,6 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF765C21CB6272900DD660C /* IOClass.cpp in Sources */,
+				CBF765C61CB63B1200DD660C /* FstreamClass.cpp in Sources */,
+				CBF765C41CB6348900DD660C /* StrStreamClass.cpp in Sources */,
 				CBF765BA1CB620BE00DD660C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
