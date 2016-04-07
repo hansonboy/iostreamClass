@@ -26,4 +26,4 @@
 		低级IO叫做二进制流输入输出
 		高级IO叫做ASCII流输入输出
 4.  [详细的c++ 输入输出流教程在这里](http://c.biancheng.net/cpp/biancheng/cpp/rumen_13/)
-5.  [代码在github上面](git@github.com:hansonboy/iostreamClass.git)
+5.  [代码在github上面](https://github.com/hansonboy/iostreamClass)
